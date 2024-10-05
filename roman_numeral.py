@@ -17,6 +17,7 @@ def roman_to_int(numeral):
             final_answer += 5
         elif i == "I":
             final_answer += 1
-        print("The roman numerals you entered translates to: " + str(final_answer) + "!")
+        
+    print("The roman numerals you entered translates to: " + str(final_answer) + "!")
        
 roman_to_int(numeral_input)
